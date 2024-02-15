@@ -11,6 +11,7 @@ public class Main {
             String S = input.nextLine();
             boolean flag = false, st = false;
             int ans = 0;
+            
             for(int i = 0; i < n; i++) {
                 if(S.charAt(i) == ':' && !st) {
                     flag = true;
